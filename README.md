@@ -4,6 +4,8 @@
 
 A browser tool by Muwen Li, developed with Codex. The original web app is named **MESHROOM**.
 
+**[Read the product case](docs/product-case.md)** — the production problem, interaction decisions, automation boundaries and delivery criteria.
+
 ## [▶ Open the interactive web app](https://meshroom-breakdown-studio.limuwen9.chatgpt.site)
 
 Opens the original MESHROOM app in a separate browser page. **Public access · No sign-in required · Built-in demo model.** The interactive controls are in the linked app.
