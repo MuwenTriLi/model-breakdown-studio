@@ -1,23 +1,57 @@
 # Model Breakdown Studio
 
-**Import a 3D model. Compose an exploded view. Turn it into an animation.**
+**Import a 3D model, explain its components, and compose a presentation animation.**
 
-An interactive browser tool by Muwen Li, developed with Codex. Previously called MESHROOM. It brings component inspection, controllable motion and video output into one workspace.
+A browser tool by Muwen Li, developed with Codex. The original web app is named **MESHROOM**.
 
-[Portfolio](https://github.com/MuwenTriLi/creative-workflows) · [Prepare a model](docs/model-preparation.md) · [Workflow](docs/workflow.md) · [Implementation](docs/architecture.md)
+## [▶ Open the interactive web app](https://meshroom-breakdown-studio.limuwen9.chatgpt.site)
 
-![The original three-panel studio, with selectable components, an exploded model, a sample shelf and animation controls](docs/media/studio-preview.jpg)
+The link opens the original working app in a separate browser page. **ChatGPT sign-in and site access are currently required.** The GitHub page presents the project; the interactive controls are in the linked app.
 
-## Try the workflow
+[All projects](https://github.com/MuwenTriLi/creative-workflows#selected-work) · [Workflow](docs/workflow.md) · [Model preparation](docs/model-preparation.md) · [Screen recording](showcase/recordings/) · [Walkthrough notes](showcase/walkthrough.md)
 
-1. Click an example on the right, or drag it into the central viewport. Choose **+Z FRONT** for the included examples.
-2. Select a named part in the left panel. Adjust **Explode** and rotation on the right; drag components while exploded to compose a layout.
-3. Record a layout with **K** or add a component reveal cue to the timeline. Play the sequence, then open **Export**.
-4. Start with a two-second **720p** MP4. Rendering happens in the browser. PNG still export is also available.
+## What the tool is for
 
-You can import your own `.glb`, `.obj` or `.fbx` with **Import model** or by dropping it onto the viewport. **GLB is the preferred handoff format** because it can package geometry and materials in one file. The technical presentation deliberately restyles imported meshes; this is not a material-accurate asset viewer.
+Turn a model's component structure into a visual explanation: inspect named parts, separate them spatially, highlight what matters, and compose motion for a presentation.
 
-## Run locally
+| Step | What the creator does |
+| --- | --- |
+| Import | Bring a model into the browser and check its orientation and component list. |
+| Compose | Adjust the exploded view, select parts, and control emphasis. |
+| Animate | Arrange motion and reveal cues on the timeline. |
+| Present | Preview the sequence and export an animation or still. |
+
+This project is presented as a **browser tool and reusable creative workflow**. It is not currently packaged as an installable agent Skill.
+
+## Recorded walkthrough
+
+**Screen recording pending.** A short walkthrough and selected frames will be added here after Muwen supplies the material.
+
+The planned recording follows one task from model import through one useful adjustment to the final animation. Recording files belong in [showcase/recordings/](showcase/recordings/); stills and GIFs belong in [showcase/images/](showcase/images/). The [walkthrough outline](showcase/walkthrough.md) leaves space for the model, intended effect and key steps.
+
+<details>
+<summary>Static preview of the local adaptation</summary>
+
+The image below is a screenshot, not an embedded application. It shows the local adaptation with its additional sample shelf. Use **Open the interactive web app** above to visit the original MESHROOM interface.
+
+[![Static screenshot of the local Model Breakdown Studio adaptation](docs/media/studio-preview.jpg)](https://meshroom-breakdown-studio.limuwen9.chatgpt.site)
+
+</details>
+
+## Project files
+
+| Location | Contents |
+| --- | --- |
+| [showcase/](showcase/) | Screen recording, selected visuals and walkthrough notes. |
+| [docs/](docs/) | Workflow, model preparation and implementation notes. |
+| [app/](app/) | Preserved local adaptation of the browser app. |
+| [public/](public/) | Procedural examples and a location for approved sample GLBs. |
+| [tests/](tests/) | Geometry and sample integrity checks. |
+
+<details>
+<summary>Run the separate local adaptation</summary>
+
+The source in this repository is the previously prepared local adaptation. It is separate from the linked original web app; it has not replaced or redeployed that app.
 
 Node.js 22.13+ and pnpm are required.
 
@@ -26,7 +60,7 @@ pnpm install --frozen-lockfile
 pnpm dev
 ```
 
-Open the Local URL printed in the terminal. If the port is occupied, use `pnpm dev --port 4186`.
+Open the Local URL printed in the terminal. If needed, choose another port with `pnpm dev --port 4186`.
 
 ```sh
 pnpm test
@@ -34,42 +68,8 @@ pnpm build
 pnpm preview --port 4186
 ```
 
-## What this demonstrates
+The local adaptation has three procedural samples. Its production build and 17 geometry/sample tests passed. Sample GLB import, orientation, explode/highlight and a two-second 720p H.264 export were checked locally. These results do not constitute a fresh validation of the hosted original. OBJ/FBX, larger models and higher export resolutions have not been independently verified here.
 
-| Creator task | Interaction | Result |
-| --- | --- | --- |
-| Understand a model | Named mesh list, selection and visibility | A readable component hierarchy |
-| Explain construction | Layered explode and manual part offsets | A composed breakdown view |
-| Direct attention | Highlight and reveal cues | A timed explanation of individual parts |
-| Produce a presentation | Timeline, rotation and local export | An MP4 or PNG generated in the browser |
+</details>
 
-This is a **browser tool with a reusable workflow**. A video output does not make it an agent Skill. The [workflow document](docs/workflow.md) records the repeatable method; this repository does not claim to include a tested, installable agent Skill.
-
-## Current release status
-
-Private review version. The static app is built and tested locally; a publicly accessible demo URL has not been published. The repository README links to documentation and source; GitHub does not run the interactive app inside the README.
-
-- Three procedural examples are included: Keypad (9 parts), Orbital (8), Pavilion (12). These are clearly labeled test models; Muwen's curated GLB examples will replace or extend them.
-- Verified: production build, 17 geometry/sample tests, sample click and drag import through GLB, orientation selection, exploded view and part highlighting.
-- Verified output: one 1280 × 720 H.264 MP4, 30 fps, 60 frames / 2 seconds. Higher resolutions and arbitrary user models have not been benchmarked.
-- GLB was exercised with the bundled examples. OBJ/FBX support is retained from the original prototype and is not independently verified in this release. Animation tracks from imported models are not played; this tool creates its own presentation motion.
-- Browser WebGL and WebCodecs support are required. Large models and high-resolution exports can be slow. External texture dependencies should be embedded in the GLB.
-
-## Source map
-
-```text
-app/
-  page.tsx                 Original studio UI, viewer and export pipeline
-  explode-layout.ts        Camera-aware layer layout and component offsets
-  sample-models.ts         Example registry and procedural sample geometry
-  globals.css              Original studio styling plus responsive sample shelf
-public/
-  models/                  Approved GLBs can be added here
-  samples/                 Sample-card preview graphics
-docs/                      Workflow, model preparation and implementation notes
-tests/                     Geometry and sample integrity tests
-```
-
-Files dropped by a visitor are processed locally. Bundled examples are part of the website and can be downloaded by visitors. No account, API key, database or paid cloud service is needed to run this app locally.
-
-This private repository is a review package. No open-source license is granted by this draft; dependency licenses remain with their respective owners.
+The repository remains a private review package. The original site's access settings are unchanged. No open-source license is granted by this draft; dependency licenses remain with their respective owners.
