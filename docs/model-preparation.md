@@ -8,7 +8,13 @@ Recommended handoff: a self-contained `.glb` file, plus an optional PNG/JPG prev
 4. Embed materials and textures in the GLB. The studio uses its own technical line/highlight presentation rather than preserving final render materials.
 5. For a quick interview demo, start with a modest model, ideally around 20 MB or less. This is a practical recommendation, not a guaranteed performance threshold.
 
-## Adding a model to the shelf
+## Importing your own model in the original app
+
+Choose **IMPORT MODEL** and select your file. Keep the parts separate before export so they can be selected and highlighted individually. A personal import does not add the file to this GitHub repository.
+
+## Adding a model to the local adaptation shelf
+
+The sample shelf below belongs to the separate local adaptation; it has not been added to the original hosted interface.
 
 Put the approved GLB in `public/models/` and a preview in `public/samples/`. Add an entry to `SAMPLE_MODELS` in `app/sample-models.ts`:
 

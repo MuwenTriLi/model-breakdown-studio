@@ -1,6 +1,6 @@
 # Walkthrough outline
 
-[Open the original web app](https://meshroom-breakdown-studio.limuwen9.chatgpt.site) — sign-in and access required.
+[Open the original web app](https://meshroom-breakdown-studio.limuwen9.chatgpt.site) — public, no sign-in required.
 
 This is an outline to complete after the recording is supplied.
 

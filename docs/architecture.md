@@ -1,6 +1,8 @@
-# Implementation
+# Local adaptation: implementation
 
-The original MESHROOM interface is retained: component list on the left, 3D viewport in the center, parameters on the right, and timeline below. A compact example shelf sits above the right-side controls. Narrow windows stack the controls rather than hiding them.
+These notes describe the separate local adaptation in this repository. The public [original web app](https://meshroom-breakdown-studio.limuwen9.chatgpt.site) retains its existing interface; the additional sample shelf described below belongs only to the local adaptation.
+
+The original MESHROOM interface layout is retained: component list on the left, 3D viewport in the center, parameters on the right, and timeline below. A compact example shelf sits above the right-side controls. Narrow windows stack the controls rather than hiding them.
 
 React manages interface state. Three.js loads and renders geometry, handles selection and camera controls, and draws the technical outline treatment. `explode-layout.ts` maps layered and manually positioned components into the active camera's safe frame. The timeline stores presentation cues and layout snapshots. WebCodecs and mp4-muxer encode video in the browser.
 
@@ -21,7 +23,7 @@ Procedural examples are serialized into a GLB in memory and passed through the s
 
 Vite produces a static `dist/` directory with relative asset paths. This package does not include the old hosting platform's authentication, database, worker or account configuration. It has no server dependency. It also does not publish itself or enable GitHub Actions or Pages.
 
-The repository remains private. A public interactive URL is a separate deployment decision. A private repository should not be treated as password protection for a published static site.
+The portfolio links to the publicly accessible original MESHROOM site. GitHub Pages has not been enabled for this adaptation.
 
 ## Validation performed
 
