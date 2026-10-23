@@ -1,17 +1,16 @@
-# Walkthrough outline
+# One real model, one explanation
 
-[Open the original web app](https://meshroom-breakdown-studio.limuwen9.chatgpt.site) — public, no sign-in required.
+[← Selected results](README.md) · [Open the original app](https://meshroom-breakdown-studio.limuwen9.chatgpt.site)
 
-This is an outline to complete after the recording is supplied.
+**Final output films are available. The web-app operation recording is still to add.** Use one of the supplied architectural studies so the reviewer can connect the input, controls and finished result.
 
-| Item | To be supplied |
-| --- | --- |
-| Model / asset | File name and a short description; `.glb` is preferred for the handoff. |
-| Goal | What should a viewer understand about the model? |
-| Starting point | Model structure, orientation and relevant parts. |
-| Key interaction | Which parameter or selection changes the presentation? |
-| Motion | What the timeline or rotation demonstrates. |
-| Result | Selected final frame or exported video excerpt. |
-| Contribution | Muwen's design decisions and the role of Codex. |
+| Recording beat | Show | Explain |
+| --- | --- | --- |
+| 0–10 s · brief | Assembled GLB and named parts | Which component should an AEC/design audience understand? |
+| 10–25 s · first pass | Import, orientation, exploded view | What the browser handles and what the creator checks |
+| 25–45 s · local correction | Select one component; adjust framing, separation or timing | What was unclear and why this change is sufficient |
+| 45–60 s · delivery | Preview and actual exported file | Check focal-part readability, edges, continuity and duration |
 
-Suggested capture order: import → select → adjust → preview → export/result. A short on-screen caption at each step is enough; detailed code explanations are not necessary in the recording.
+Use your existing model; do not upload a company source model merely to provide process evidence. A recording with permitted visuals can show the workflow without distributing the input geometry. Include project/model credits and distinguish your interaction design from ownership of the displayed model.
+
+Next validation: ask an unfamiliar creator to explain one part with the same task, record help needed and local revisions, and judge the result before deciding to expand the tool. No efficiency percentage is inferred from the supplied films.

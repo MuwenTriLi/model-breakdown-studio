@@ -1,3 +1,3 @@
-# Selected visuals — awaiting material
+# Selected visuals
 
-Add approved screenshots or short GIFs from the actual workflow: input model, one meaningful adjustment, and the resulting view. Each visual should have a brief caption explaining what changed. This folder currently contains no project visuals.
+The curated final frames and GIFs are now in [../media/](../media/), with captions and full output links in the [gallery](../README.md). The interface recording is still pending. Showcase media is excluded from the MIT code license.

@@ -1,70 +1,63 @@
 # Model Breakdown Studio
 
-**Import a 3D model, explain its components, and compose a presentation animation.**
+**Turn a multi-part GLB into an exploded view, a focused detail and a presentation sequence.**
 
-A browser tool by Muwen Li, developed with Codex. The original web app is named **MESHROOM**.
+A browser tool by **Muwen Li**, developed with Codex. The original live app is named **MESHROOM**. Designed for visual explanation in architecture, engineering, construction (AEC) and industrial design: help an audience see which parts matter and how they relate.
 
-**[Read the product case](docs/product-case.md)** — the production problem, interaction decisions, automation boundaries and delivery criteria.
+**[Open the interactive app →](https://meshroom-breakdown-studio.limuwen9.chatgpt.site)** · [Product case](docs/product-case.md) · [Selected output films](showcase/README.md) · [Source & MIT scope](#code-and-media-rights) · [All projects](https://github.com/MuwenTriLi/creative-workflows#selected-work)
 
-## [▶ Open the interactive web app](https://meshroom-breakdown-studio.limuwen9.chatgpt.site)
+## From a complete model to a readable explanation
 
-Opens the original MESHROOM app in a separate browser page. **Public access · No sign-in required · Built-in demo model.** The interactive controls are in the linked app.
+<table><tr>
+<td width="50%" align="center" valign="top"><a href="showcase/media/structure.mp4"><img src="showcase/media/structure.gif" height="320" alt="Architectural assembly separated into layers, with a structural frame highlighted"></a><br><b>Separate the systems</b><br><sub>Keep the assembly visible while directing attention to its structural frame.</sub><br><a href="showcase/media/structure.mp4">Watch the 11 s output</a></td>
+<td width="50%" align="center" valign="top"><a href="showcase/media/residence.mp4"><img src="showcase/media/residence.gif" height="320" alt="Exploded residential assembly with changing component emphasis"></a><br><b>Explain a component in context</b><br><sub>Read the roof, floors and smaller elements as parts of one model.</sub><br><a href="showcase/media/residence.mp4">Watch the 9.5 s output</a></td>
+</tr></table>
 
-[All projects](https://github.com/MuwenTriLi/creative-workflows#selected-work) · [Workflow](docs/workflow.md) · [Model preparation](docs/model-preparation.md) · [Screen recording](showcase/recordings/) · [Walkthrough notes](showcase/walkthrough.md)
+These are Muwen-supplied final outputs, not screenshots pretending to be interactive controls. The GIFs are compact previews; the linked MP4s preserve the complete supplied sequences. [Four films and selected detail frames](showcase/README.md).
 
 ## Try it in one minute
 
-1. Open the web app. A nine-part keypad model is ready to explore; no file is needed.
-2. Choose **250%** or **750%** under **Exploded structure**, then select a named part in the left panel to inspect it.
-3. Toggle **ROTATE**, change its speed, or switch back to **ASSEMBLED** to compare the structure. To try your own model, choose **IMPORT MODEL**; a `.glb` with separate, named meshes works best.
+1. **Open:** the original app includes a nine-part keypad model, so no upload is required to start.
+2. **Inspect:** choose **250%** or **750%** in **Exploded structure**, then select a named component in the left panel. Compare it with **ASSEMBLED**.
+3. **Explain:** toggle **ROTATE**, adjust framing and choose the component the viewer should notice. Use the timeline to shape emphasis and motion.
+4. **Bring your model:** choose **IMPORT MODEL**. Use a `.glb` containing separate, meaningfully named meshes. Check orientation, scale and part names before composing.
 
-<a href="https://meshroom-breakdown-studio.limuwen9.chatgpt.site"><img src="docs/media/live-app.jpg" alt="Original MESHROOM app with the keypad exploded at 250 percent and Control PCB selected" width="720"></a>
+<a href="https://meshroom-breakdown-studio.limuwen9.chatgpt.site"><img src="docs/media/live-app.jpg" alt="Original MESHROOM editor with exploded keypad and selected Control PCB" width="640"></a>
 
-*Original app, shown with a selected component. Click the image or the link above to interact.*
+*The linked app contains the controls. The repository is the case study and source reference.*
 
-## What the tool is for
+## The production problem
 
-Turn a model's component structure into a visual explanation: inspect named parts, separate them spatially, highlight what matters, and compose motion for a presentation.
+A complete model can be visually dense even when its geometry is accurate. A presenter may need to isolate a structural system, show an assembly relationship or explain a detail; making a new animation setup for every explanation introduces repeated work.
 
-| Step | What the creator does |
-| --- | --- |
-| Import | Bring a model into the browser and check its orientation and component list. |
-| Compose | Adjust the exploded view, select parts, and control emphasis. |
-| Animate | Arrange motion and reveal cues on the timeline. |
-| Present | Preview the sequence and export an animation or still. |
+The product hypothesis is that **hierarchy, exploded composition, highlighting and timing in one workspace** make that explanation easier to construct and revise. The supplied architectural films demonstrate output possibilities. Industrial-design use is an intended application, not a validated customer outcome. This is a presentation tool, not a BIM coordination or engineering verification system.
 
-## Design contribution
+| Stage | The tool handles | The creator decides |
+| --- | --- | --- |
+| Import & inspect | Load geometry and expose available parts | Correct orientation, useful grouping and what needs explaining |
+| Compose | Apply explode and view parameters | Spatial separation, framing and preserved context |
+| Emphasize & animate | Apply selected highlight and timing controls | Focal component, sequence and readable pauses |
+| Review & export | Generate the selected presentation output | Check clipping, continuity, labels and the encoded result |
 
-The interface brings **model structure, spatial composition and motion timing** into one working view. The left panel identifies parts, the central viewport shows the result, and the right controls and timeline let the creator refine how the model is explained.
+**Local revision:** change the focal part, framing or explode amount without reimporting the model. Automatic semantic grouping, language-driven storytelling and revision rollback are not established capabilities. A fused mesh cannot automatically become a meaningful set of components.
 
-My contribution is the creative direction and interaction workflow, developed with Codex-assisted implementation. The reusable method is **inspect → compose → emphasize → animate → review**; the [workflow notes](docs/workflow.md) explain it step by step.
+## What this case demonstrates
 
-This is a **browser tool and reusable creative workflow**. An installable agent Skill is not currently included.
+My contribution is creative direction and the interaction workflow, developed with Codex-assisted implementation. Professional production experience informed the need for component selection, editable emphasis and a visible review step. The method is **inspect → compose → emphasize → animate → review**. [Full decisions, hypothesis and acceptance criteria](docs/product-case.md).
 
-## Recorded walkthrough
+**Evidence now:** four architectural output films and four stills; a public interactive app; repository source; and a separate hosted technical check using a synthetic three-part GLB that exported a 2 s / 4K / 30 fps H.264 file. The real films were supplied after that test; they are not claimed as newly reproduced exports in this review.
 
-**Screen recording pending.** A short walkthrough and selected frames will be added here after Muwen supplies the material.
-
-The planned recording follows one task from model import through one useful adjustment to the final animation. Recording files belong in [showcase/recordings/](showcase/recordings/); stills and GIFs belong in [showcase/images/](showcase/images/). The [walkthrough outline](showcase/walkthrough.md) leaves space for the model, intended effect and key steps.
-
-<details>
-<summary>Static preview of the local adaptation</summary>
-
-The image below is a screenshot, not an embedded application. It shows the local adaptation with its additional sample shelf. Use **Open the interactive web app** above to visit the original MESHROOM interface.
-
-[![Static screenshot of the local Model Breakdown Studio adaptation](docs/media/studio-preview.jpg)](https://meshroom-breakdown-studio.limuwen9.chatgpt.site)
-
-</details>
+**Next evidence:** a short recording connecting one real GLB to one output, including one local correction. The final visual output is present; the import-to-export process recording is still pending. [Recording outline](showcase/walkthrough.md) · [Model preparation](docs/model-preparation.md).
 
 ## Project files
 
 | Location | Contents |
 | --- | --- |
-| [showcase/](showcase/) | Screen recording, selected visuals and walkthrough notes. |
-| [docs/](docs/) | Workflow, model preparation and implementation notes. |
-| [app/](app/) | Preserved local adaptation of the browser app. |
-| [public/](public/) | Procedural examples and a location for approved sample GLBs. |
-| [tests/](tests/) | Geometry and sample integrity checks. |
+| [showcase/](showcase/) | Selected final films, detail frames, provenance and recording outline |
+| [docs/](docs/) | Workflow, model preparation, implementation and product decisions |
+| [app/](app/) | Preserved local adaptation; separate from the original hosted app |
+| [public/](public/) | Procedural previews and a location for approved sample GLBs |
+| [tests/](tests/) | Geometry and sample integrity checks |
 
 <details>
 <summary>Run the separate local adaptation</summary>
@@ -90,4 +83,9 @@ The local adaptation has three procedural samples. Its production build and 17 g
 
 </details>
 
-This repository is a public portfolio presentation and source reference. No open-source license has been selected; dependency licenses remain with their respective owners.
+
+## Code and media rights
+
+**Original application code in this repository is MIT licensed.** See [LICENSE](LICENSE) and [the exact scope](MEDIA-RIGHTS.md). The retained repository adaptation and the separate hosted original app are identified above; this repository's license does not relicense an external deployment.
+
+**Showcase videos, renders, screenshots, imported models and brand/company materials are excluded from the code license.** They are displayed as portfolio evidence and retain their existing ownership. Dependencies retain their respective licenses. The illoca architecture-growth case is a separate company production presentation, with no public Skill or company source release.
