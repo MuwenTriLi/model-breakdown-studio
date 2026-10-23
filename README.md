@@ -13,7 +13,7 @@ A browser tool by **Muwen Li**, developed with Codex. The original live app is n
 <td width="50%" align="center" valign="top"><a href="showcase/media/residence.mp4"><img src="showcase/media/residence.gif" height="320" alt="Exploded residential assembly with changing component emphasis"></a><br><b>Explain a component in context</b><br><sub>Read the roof, floors and smaller elements as parts of one model.</sub><br><a href="showcase/media/residence.mp4">Watch the 9.5 s output</a></td>
 </tr></table>
 
-These are Muwen-supplied final outputs, not screenshots pretending to be interactive controls. The GIFs are compact previews; the linked MP4s preserve the complete supplied sequences. [Four films and selected detail frames](showcase/README.md).
+These final output films were supplied by Muwen. Use the interactive app link above to work with the controls. The GIFs are compact previews; the linked MP4s preserve the complete supplied sequences. [Four films and selected detail frames](showcase/README.md).
 
 ## Try it in one minute
 
