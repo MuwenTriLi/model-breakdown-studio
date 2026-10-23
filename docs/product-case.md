@@ -4,6 +4,14 @@
 
 **The job:** turn a multi-part model into an understandable presentation without rebuilding a separate animation setup for every explanation.
 
+## The smallest useful task
+
+**Task:** explain the Control PCB in the built-in keypad, then repeat with one authorized, named, multi-part GLB: assembled view → separated focal component → return to the whole. The second task and hosted export still need a recorded check.
+
+**Local correction:** first revise explode amount, selected part or framing in the loaded scene; do not reimport or replace the model just to change its emphasis. The sample selection/explode controls were observed. Per-part motion locks, affected-interval regeneration and revision rollback are proposed, not established capabilities of the hosted app.
+
+**Decision now:** iterate the real-model import-to-export path. A fused mesh should trigger a clear limitation. Expand only after one creator can complete and correct the explanation; narrow support when an input cannot preserve meaningful component relationships.
+
 ## Problem and hypothesis
 
 A complete assembly can hide the part a presenter wants to explain. Separating components is useful only if their relationships, framing and order remain legible. The working hypothesis is that hierarchy, spatial composition and timing in one interface let a creator refine that explanation directly. This is a practitioner-led product hypothesis; formal workflow interviews and comparative usability evidence are still to add.
