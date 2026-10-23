@@ -26,14 +26,24 @@ All four supplied films are represented here. [Open the output gallery and four 
 
 ## Try it in one minute
 
-1. **Open:** the original app includes a nine-part keypad model, so no upload is required to start.
+1. **Choose a model:** the app opens with **Wood House**. The right-hand **EXAMPLE MODELS** cards also load **Press Manufacturing Line** and **Car Production Line**; no account or upload is required.
 2. **Inspect:** choose **250%** or **750%** in **Exploded structure**, then select a named component in the left panel. Compare it with **ASSEMBLED**.
 3. **Explain:** toggle **ROTATE**, adjust framing and choose the component the viewer should notice. Use the timeline to shape emphasis and motion.
-4. **Bring your model:** choose **IMPORT MODEL**. Use a `.glb` containing separate, meaningfully named meshes. Check orientation, scale and part names before composing.
+4. **Bring your model:** choose **IMPORT YOUR OWN GLB** or drop your file onto the canvas. Use separate, meaningfully named mesh parts, then confirm orientation. Your file is processed in the browser. Switching models asks before clearing the current part edits and timeline.
 
-<a href="https://meshroom-breakdown-studio.limuwen9.chatgpt.site"><img src="docs/media/live-app.jpg" alt="Original MESHROOM editor with exploded keypad and selected Control PCB" width="100%"></a>
+<a href="https://meshroom-breakdown-studio.limuwen9.chatgpt.site"><img src="docs/media/example-library.png" alt="Model Breakdown Studio with the supplied model library, local GLB import and named parts" width="100%"></a>
 
 *The linked app contains the controls. The repository is the case study and source reference.*
+
+### Three real inputs to try
+
+| Example | What to inspect | Preserved mesh parts |
+| --- | --- | ---: |
+| Wood House | Roof, walls, framing and foundation | 18 |
+| Press Manufacturing Line | Moving assembly, dies, structure and equipment | 32 |
+| Car Production Line | Structure, conveyor, vehicle body and robot systems | 30 |
+
+The previews use the supplied model geometry. Lossless delivery compression preserves every GLB byte; model files and screenshots remain outside the MIT code license. [Verification and limits](docs/example-model-review.md).
 
 ## The production problem
 
@@ -88,7 +98,7 @@ pnpm build
 pnpm preview --port 4186
 ```
 
-The local adaptation has three procedural samples. Its production build and 17 geometry/sample tests passed. Sample GLB import, orientation, explode/highlight and a two-second 720p H.264 export were checked locally. Separately, the original hosted app completed a three-part synthetic GLB import, orientation, explode/selection and a two-second 4K / 30 fps H.264 export (60 frames, full decode passed). This is a bounded technical check. Real-model storytelling, OBJ/FBX and larger inputs remain unverified. [Check details and limits](https://github.com/MuwenTriLi/creative-workflows/blob/main/docs/functional-review.md).
+The local adaptation has three procedural samples. Its production build and 17 geometry/sample tests passed. Sample GLB import, orientation, explode/highlight and a two-second 720p H.264 export were checked locally. Separately, the original hosted app completed a three-part synthetic GLB import, orientation, explode/selection and a two-second 4K / 30 fps H.264 export (60 frames, full decode passed). This is a bounded technical check. The supplied Wood House (18 parts), Press Manufacturing Line (32 parts) and Car Production Line (30 parts) now load in the original app, with switching, explode and part selection checked. Full video exports from these three inputs, OBJ/FBX and first-time creator success remain unverified. [Model-library check](docs/example-model-review.md). [Check details and limits](https://github.com/MuwenTriLi/creative-workflows/blob/main/docs/functional-review.md).
 
 </details>
 

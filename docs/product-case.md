@@ -6,7 +6,7 @@
 
 ## The smallest useful task
 
-**Task:** explain the Control PCB in the built-in keypad, then repeat with one authorized, named, multi-part GLB: assembled view → separated focal component → return to the whole. A synthetic three-part GLB has completed the hosted path. Four real architectural output films are now [available](../showcase/README.md); the source-to-output recording remains to add.
+**Task:** explain the roof framing in **Wood House**, then repeat with a production-line subsystem: assembled view → separated focal component → return to the whole. The three supplied GLB examples are selectable in the live app; a separate synthetic three-part GLB previously completed the hosted export path. Four real architectural output films are now [available](../showcase/README.md); the source-to-output recording remains to add.
 
 **Local correction:** first revise explode amount, selected part or framing in the loaded scene; do not reimport or replace the model just to change its emphasis. The sample selection/explode controls were observed. Per-part motion locks, affected-interval regeneration and revision rollback are proposed, not established capabilities of the hosted app.
 
@@ -20,7 +20,7 @@ A complete assembly can hide the part a presenter wants to explain. Separating c
 
 The supplied [architectural films](../showcase/README.md) show structural hierarchy, building systems, tower elements and residential assemblies. These connect the tool to an AEC presentation task: make a system or detail understandable without losing its place in the building. Industrial-design explanation is another intended use; it has not been validated with an industrial-design user study. The app does not certify structure, construction feasibility or BIM coordination.
 
-The new material establishes final-output evidence. It does not establish how many manual corrections were needed, the source model's ownership, or whether a first-time user can reproduce the result. A narrated import → local correction → checked export remains the next useful experiment.
+The model library additionally establishes named real-input loading and local interaction. These checks do not establish a complete real-input video export. The finished films establish final-output evidence. It does not establish how many manual corrections were needed, the source model's ownership, or whether a first-time user can reproduce the result. A narrated import → local correction → checked export remains the next useful experiment.
 
 ## Interaction decisions
 
