@@ -26,6 +26,8 @@ The production build and 19 tests passed. These include exact model integrity, r
 
 The standalone TypeScript check still reports pre-existing missing Cloudflare worker type declarations in the database/worker files; the production bundle succeeds. This is a tooling limitation to resolve separately, not a claim of a clean whole-repository type check.
 
+The final public first-response check returns HTTP 200 without account credentials. A Worker-specific SSR failure was reproduced locally and fixed in the hosted app: Draco's browser decoder now loads during model import, rather than initializing while the server renders the page. The rebuilt production runtime opens the Press model successfully. This is separate from cross-device performance testing.
+
 ## What this does not prove
 
 This is a bounded functional check on one desktop browser, not a user study or an export-quality certificate. A two-second Press Manufacturing Line export now passes 3840 × 2160 / H.264 / 30 fps / 60 frames and full decode. Full-length exports, every transition, the other real models, mobile performance and repeated long editing sessions remain to verify. A fused mesh cannot provide semantic parts that are absent from the input. The software does not certify engineering accuracy or construction feasibility.
