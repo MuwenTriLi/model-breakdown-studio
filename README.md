@@ -9,11 +9,20 @@ A browser tool by **Muwen Li**, developed with Codex. The original live app is n
 ## From a complete model to a readable explanation
 
 <table><tr>
-<td width="50%" align="center" valign="top"><a href="showcase/media/structure.mp4"><img src="showcase/media/structure.gif" height="320" alt="Architectural assembly separated into layers, with a structural frame highlighted"></a><br><b>Separate the systems</b><br><sub>Keep the assembly visible while directing attention to its structural frame.</sub><br><a href="showcase/media/structure.mp4">Watch the 11 s output</a></td>
-<td width="50%" align="center" valign="top"><a href="showcase/media/residence.mp4"><img src="showcase/media/residence.gif" height="320" alt="Exploded residential assembly with changing component emphasis"></a><br><b>Explain a component in context</b><br><sub>Read the roof, floors and smaller elements as parts of one model.</sub><br><a href="showcase/media/residence.mp4">Watch the 9.5 s output</a></td>
+<td width="50%" align="center" valign="top"><a href="https://muwentrili.github.io/creative-workflows/films/?project=model&amp;film=structure"><img src="showcase/media/structure-large.gif" width="100%" alt="Separate the systems"></a><br><b>Separate the systems</b><br><sub>Structural hierarchy.</sub><br><a href="https://muwentrili.github.io/creative-workflows/films/?project=model&amp;film=structure">Watch 11 s MP4</a></td>
+<td width="50%" align="center" valign="top"><a href="https://muwentrili.github.io/creative-workflows/films/?project=model&amp;film=residence"><img src="showcase/media/residence-large.gif" width="100%" alt="Explain a component in context"></a><br><b>Explain a component in context</b><br><sub>Part-to-whole relationships.</sub><br><a href="https://muwentrili.github.io/creative-workflows/films/?project=model&amp;film=residence">Watch 9.5 s MP4</a></td>
 </tr></table>
 
-These final output films were supplied by Muwen. Use the interactive app link above to work with the controls. The GIFs are compact previews; the linked MP4s preserve the complete supplied sequences. [Four films and selected detail frames](showcase/README.md).
+These enlarged previews show excerpts at the original speed. Click a preview or its **Watch MP4** link for the complete film. Use **Open the interactive app** above to work with the controls.
+
+### More applications: systems and envelope
+
+<table><tr>
+<td width="50%" align="center" valign="top"><a href="https://muwentrili.github.io/creative-workflows/films/?project=model&amp;film=systems"><img src="showcase/media/systems-large.gif" width="100%" alt="Direct attention to a building system"></a><br><b>Direct attention to a building system</b><br><sub>Selective system emphasis.</sub><br><a href="https://muwentrili.github.io/creative-workflows/films/?project=model&amp;film=systems">Watch 11.5 s MP4</a></td>
+<td width="50%" align="center" valign="top"><a href="https://muwentrili.github.io/creative-workflows/films/?project=model&amp;film=tower"><img src="showcase/media/tower-large.gif" width="100%" alt="Read the tower in layers"></a><br><b>Read the tower in layers</b><br><sub>Levels and envelope.</sub><br><a href="https://muwentrili.github.io/creative-workflows/films/?project=model&amp;film=tower">Watch 8 s MP4</a></td>
+</tr></table>
+
+All four supplied films are represented here. [Open the output gallery and four large detail stills →](showcase/README.md). These are final outputs supplied by Muwen; the input-to-export process recording is still to add.
 
 ## Try it in one minute
 
@@ -22,7 +31,7 @@ These final output films were supplied by Muwen. Use the interactive app link ab
 3. **Explain:** toggle **ROTATE**, adjust framing and choose the component the viewer should notice. Use the timeline to shape emphasis and motion.
 4. **Bring your model:** choose **IMPORT MODEL**. Use a `.glb` containing separate, meaningfully named meshes. Check orientation, scale and part names before composing.
 
-<a href="https://meshroom-breakdown-studio.limuwen9.chatgpt.site"><img src="docs/media/live-app.jpg" alt="Original MESHROOM editor with exploded keypad and selected Control PCB" width="640"></a>
+<a href="https://meshroom-breakdown-studio.limuwen9.chatgpt.site"><img src="docs/media/live-app.jpg" alt="Original MESHROOM editor with exploded keypad and selected Control PCB" width="100%"></a>
 
 *The linked app contains the controls. The repository is the case study and source reference.*
 
