@@ -4,7 +4,7 @@
 
 ## What is implemented
 
-- The first visit loads Wood House. The right-side library contains three real GLB examples with thumbnails captured from those same models.
+- The first visit loads Press Manufacturing Line at 1500% explode. The collapsible right-side library contains three real GLB examples with thumbnails captured from those same models.
 - Choosing a different model asks before replacing the current part edits and timeline. Cancel retains the current work.
 - Import your own GLB and canvas drag-and-drop use the existing browser-local import route. The creator chooses presentation direction; the app extracts the supplied named meshes.
 - Automatic work: download/decompress, read mesh hierarchy, fit the view and prepare outlines. Creator decisions: model replacement, orientation, framing, explode amount, part emphasis, timing and final export.
@@ -28,7 +28,7 @@ The standalone TypeScript check still reports pre-existing missing Cloudflare wo
 
 ## What this does not prove
 
-This is a bounded functional check on one desktop browser, not a user study or an export-quality certificate. Real-model MP4 export duration, every transition, mobile performance and repeated long editing sessions remain to verify. A fused mesh cannot provide semantic parts that are absent from the input. The software does not certify engineering accuracy or construction feasibility.
+This is a bounded functional check on one desktop browser, not a user study or an export-quality certificate. A two-second Press Manufacturing Line export now passes 3840 × 2160 / H.264 / 30 fps / 60 frames and full decode. Full-length exports, every transition, the other real models, mobile performance and repeated long editing sessions remain to verify. A fused mesh cannot provide semantic parts that are absent from the input. The software does not certify engineering accuracy or construction feasibility.
 
 ## Next creator experiment
 
