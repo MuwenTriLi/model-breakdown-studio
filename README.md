@@ -86,7 +86,7 @@ pnpm build
 pnpm preview --port 4186
 ```
 
-The local adaptation has three procedural samples. Its production build and 17 geometry/sample tests passed. Sample GLB import, orientation, explode/highlight and a two-second 720p H.264 export were checked locally. These results do not constitute a fresh validation of the hosted original. OBJ/FBX, larger models and higher export resolutions have not been independently verified here.
+The local adaptation has three procedural samples. Its production build and 17 geometry/sample tests passed. Sample GLB import, orientation, explode/highlight and a two-second 720p H.264 export were checked locally. Separately, the original hosted app completed a three-part synthetic GLB import, orientation, explode/selection and a two-second 4K / 30 fps H.264 export (60 frames, full decode passed). This is a bounded technical check. Real-model storytelling, OBJ/FBX and larger inputs remain unverified. [Check details and limits](https://github.com/MuwenTriLi/creative-workflows/blob/main/docs/functional-review.md).
 
 </details>
 
