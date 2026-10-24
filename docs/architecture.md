@@ -1,5 +1,7 @@
 # Local adaptation: implementation
 
+[← Model Breakdown Studio](../README.md) · [All projects](https://github.com/MuwenTriLi/creative-workflows#selected-work)
+
 These notes describe the separate local adaptation in this repository. The public [original web app](https://meshroom-breakdown-studio.limuwen9.chatgpt.site) retains its existing interface; the additional sample shelf described below belongs only to the local adaptation.
 
 The Model Breakdown Studio interface layout is retained: component list on the left, 3D viewport in the center, parameters on the right, and timeline below. The hosted app exposes three inputs under Change model, above the main explode control. The separate repository adaptation retains its procedural sample shelf. Narrow windows stack the controls rather than hiding them.

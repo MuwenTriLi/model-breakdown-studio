@@ -20,7 +20,7 @@ A complete assembly can hide the part a presenter wants to explain. Separating c
 
 The supplied [architectural films](../showcase/README.md) show structural hierarchy, building systems, tower elements and residential assemblies. These connect the tool to an AEC presentation task: make a system or detail understandable without losing its place in the building. Industrial-design explanation is another intended use; it has not been validated with an industrial-design user study. The app does not certify structure, construction feasibility or BIM coordination.
 
-The model library additionally establishes named real-input loading and local interaction. These checks do not establish a complete real-input video export. The finished films establish final-output evidence. It does not establish how many manual corrections were needed, the source model's ownership, or whether a first-time user can reproduce the result. A narrated import → local correction → checked export remains the next useful experiment.
+The model library additionally establishes named real-input loading and local interaction. A later two-second Press Manufacturing Line check also passed 4K / 30 fps H.264 export and full decode; full-length delivery from the other real inputs remains unverified. The supplied finished films provide separate output evidence. They do not establish how many manual corrections were needed, the source model's ownership, or whether a first-time user can reproduce the result. A narrated import → local correction → checked export remains the next useful experiment.
 
 ## Interaction decisions
 

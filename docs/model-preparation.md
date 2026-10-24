@@ -1,5 +1,7 @@
 # Prepare a model
 
+[← Model Breakdown Studio](../README.md) · [All projects](https://github.com/MuwenTriLi/creative-workflows#selected-work)
+
 Recommended handoff: a self-contained `.glb` file, plus an optional PNG/JPG preview and a short description of the effect you want to demonstrate.
 
 1. Keep parts that need separate movement or highlighting as separate meshes. A single merged mesh is one selectable part; the tool does not infer hidden components.
