@@ -31,7 +31,7 @@ The model library additionally establishes named real-input loading and local in
 | Direct attention | Part selection, highlight, rotation and timeline | The explanation determines the motion and emphasis |
 | Bring a real model | Import a GLB with separate named meshes | An imported model should remain an editable source for the explanation |
 
-My contribution is creative direction and the interaction workflow, developed with Codex-assisted implementation. Code and tests for the retained local adaptation are available in this repository; its extra sample shelf and export tests are separate from the original hosted app.
+My contribution is creative direction and the interaction workflow, developed with Codex-assisted implementation. The current browser-source snapshot and local runner are in [`studio/`](../studio/); the earlier root adaptation remains separately available. Their [source versions and checks](source-versions.md) are identified explicitly, so a result from one implementation is not treated as proof for the other.
 
 ## Automation and creator control
 

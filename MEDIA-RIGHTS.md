@@ -2,7 +2,7 @@
 
 ## Code
 
-The MIT grant in [LICENSE](LICENSE) applies to original application code and procedural example generators in this repository that Muwen Li has authority to license, including `app/`, `tests/`, root application entry points and original build/configuration files. Third-party code and dependencies retain their own terms. This grant applies to the repository's retained local adaptation; it does not relicense the independently hosted original app.
+The MIT grant in [LICENSE](LICENSE) applies to original application code and procedural example generators in this repository that Muwen Li has authority to license, including `app/`, `tests/`, root application entry points and original build/configuration files. Third-party code and dependencies retain their own terms. This grant applies to the repository's retained root local adaptation. It does not apply to the newly published `studio/` hosted-browser snapshot, which is provided for source inspection under [its separate rights notice](studio/RIGHTS.md), or relicense the external deployment.
 
 ## Media excluded from the code grant
 
