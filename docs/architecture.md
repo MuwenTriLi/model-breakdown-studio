@@ -2,7 +2,7 @@
 
 For the current hosted browser-source snapshot, see the [implementation map](implementation.md) and [source versions](source-versions.md). The notes below describe the preserved earlier root adaptation.
 
-[← Model Breakdown Studio](../README.md) · [All projects](https://github.com/MuwenTriLi/creative-workflows#selected-work)
+[← Model Breakdown Studio](../README.md)
 
 These notes describe the separate local adaptation in this repository. The public [original web app](https://meshroom-breakdown-studio.limuwen9.chatgpt.site) retains its existing interface; the additional sample shelf described below belongs only to the local adaptation.
 

@@ -1,6 +1,6 @@
 # A reusable model-presentation workflow
 
-[← Model Breakdown Studio](../README.md) · [All projects](https://github.com/MuwenTriLi/creative-workflows#selected-work)
+[← Model Breakdown Studio](../README.md)
 
 **Input:** a model with named, separate meshes and a presentation goal.
 **Output:** an exploded view, timed component reveal, and a locally rendered MP4 or still.

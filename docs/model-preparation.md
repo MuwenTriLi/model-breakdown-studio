@@ -1,6 +1,6 @@
 # Prepare a model
 
-[← Model Breakdown Studio](../README.md) · [All projects](https://github.com/MuwenTriLi/creative-workflows#selected-work)
+[← Model Breakdown Studio](../README.md)
 
 Recommended handoff: a self-contained `.glb` file, plus an optional PNG/JPG preview and a short description of the effect you want to demonstrate.
 

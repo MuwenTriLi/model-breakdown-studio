@@ -12,4 +12,4 @@ Procedural example generator code may be reused under MIT. Do not interpret the 
 
 ## Separate company case
 
-The illoca Blue / White Architecture Growth case in the portfolio index presents selected completed work and a high-level method. Its underlying company scenes, style specifications, internal Skill, scripts and production data are not distributed or licensed by this repository.
+The illoca Blue / White Architecture Growth case in the portfolio index presents selected final Demo outputs only. Its underlying company scenes, style specifications, internal Skill, scripts and production data are not distributed or licensed by this repository.
